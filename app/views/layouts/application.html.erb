@@ -26,10 +26,16 @@
               <%= link_to 'New Gem', new_jewel_path, class: 'nav-link' %>
             </li>
           </ul>
+          <ul class="navbar-nav">
+            <%= link_to 'Logout', destroy_user_session_path, method: :delete , class: 'nav-link' if user_signed_in? %>
+          </ul>
         </div>
       </div>
     </nav>
     <div class="container">
+      <p id="notice"><%= notice %></p>
+      <p id="alert"><%= alert %></p>
+
       <%= yield %>
     </div>
   </body>

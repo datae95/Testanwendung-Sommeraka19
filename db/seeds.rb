@@ -5,3 +5,16 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Jewel.create ([
+  {
+    name: 'Bootstrap', 
+    description: 'Testdescription'
+  },
+  {
+    name: 'Simpleform', 
+    description: 'Testdescription'
+  },
+])
+
+User.create email: 'sommeraka@cde.ev', password: 'asdfasdf', password_confirmation: 'asdfasdf'
