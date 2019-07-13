@@ -39,8 +39,12 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  
+
+  # Factories
   gem 'factory_bot_rails'
+  # Open mails in browser
+  gem 'letter_opener'
+  # Fakedata
   gem 'faker'
   gem 'rspec-rails'
 end
@@ -77,3 +81,8 @@ gem 'simple_form'
 # authorisation and authentification
 gem 'devise'
 gem "pundit"
+
+
+# PDF export
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
