@@ -1,4 +1,6 @@
 class JewelsController < ApplicationController
+  before_action :authenticate_user!
+  
   before_action :set_jewel, only: [:show, :edit, :update, :destroy]
 
   # GET /jewels
