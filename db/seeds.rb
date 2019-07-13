@@ -17,4 +17,16 @@ Jewel.create ([
   },
 ])
 
-User.create email: 'sommeraka@cde.ev', password: 'asdfasdf', password_confirmation: 'asdfasdf'
+User.create ([
+  {
+    email: 'admin@cde.ev', 
+    password: 'asdfasdf', 
+    password_confirmation: 'asdfasdf', 
+    admin: true
+  },
+  {
+    email: 'user@cde.ev', 
+    password: 'asdfasdf', 
+    password_confirmation: 'asdfasdf', 
+  },
+])
