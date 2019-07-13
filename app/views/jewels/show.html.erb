@@ -1,14 +1,1 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Name:</strong>
-  <%= @jewel.name %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @jewel.description %>
-</p>
-
-<%= link_to 'Edit', edit_jewel_path(@jewel) %> |
-<%= link_to 'Back', jewels_path %>
+<%= render 'jewel', jewel: @jewel %>

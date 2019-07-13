@@ -1,22 +1,7 @@
 <h1>Gems</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @jewels.each do |jewel| %>
-      <tr>
-        <td><%= link_to jewel.name, jewel %></td>
-        <td><%= jewel.description %></td>
-        <td><%= link_to 'Edit', edit_jewel_path(jewel) %></td>
-        <td><%= link_to 'Destroy', jewel, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="row">
+<% @jewels.each do |jewel| %>
+  <%= render 'jewel', jewel: jewel %>
+<% end %>
+</div>

@@ -1,0 +1,13 @@
+<div class="col-6 card">
+  <h2><%= link_to jewel.name, jewel %></h2>
+  <p><%= jewel.description %></p> 
+  <p>
+    <% if current_page?(jewels_path) %>
+    <%= link_to 'Show', jewel %> |
+    <% else %>
+    <%= link_to 'Back', jewels_path %> |
+    <% end %>
+    <%= link_to 'Edit', edit_jewel_path(jewel) %> |
+    <%= link_to 'Destroy', jewel, method: :delete, data: { confirm: 'Are you sure?' } %>
+  </p>
+</div>
