@@ -17,11 +17,11 @@ Jewel.create ([
   },
   {
     name: 'Devise', 
-    description: 'Kümmert sich um die Authentifikation.'
+    description: 'Kümmert sich um die Authentifikation. Verwenden wir erst, nachdem wir verstanden haben, wie das funktioniert!'
   },
   {
     name: 'Pundit', 
-    description: 'Ist verantwortlich für die Autorisierung.'
+    description: 'Ist verantwortlich für die Autorisierung. Verwenden wir erst, wenn wir verstanden haben, wie das geht!'
   },
   {
     name: 'Byebug', 
