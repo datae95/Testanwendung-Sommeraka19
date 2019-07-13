@@ -9,11 +9,39 @@
 Jewel.create ([
   {
     name: 'Bootstrap', 
-    description: 'Testdescription'
+    description: 'Wird verwendet um ohne viel Aufwand eine hübsche Oberfläche zu bauen.'
   },
   {
     name: 'Simpleform', 
-    description: 'Testdescription'
+    description: 'Wird verwendet um Formulare schneller und schöner zu bauen.'
+  },
+  {
+    name: 'Devise', 
+    description: 'Kümmert sich um die Authentifikation.'
+  },
+  {
+    name: 'Pundit', 
+    description: 'Ist verantwortlich für die Autorisierung.'
+  },
+  {
+    name: 'Byebug', 
+    description: 'Kann für das Debuggen genutzt werden.'
+  },
+  {
+    name: 'FactoryBot', 
+    description: 'Factories für Tests und Seeds.'
+  },
+  {
+    name: 'Faker', 
+    description: 'Variablere Seeds.'
+  },
+  {
+    name: 'RSpec', 
+    description: 'Testing! Wird hier vermutlich nicht besprochen.'
+  },
+  {
+    name: 'Wiecked_PDF', 
+    description: 'Erstellen von PDFs direkt aus der Anwendung heraus.'
   },
 ])
 
