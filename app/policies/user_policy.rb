@@ -8,4 +8,8 @@ class UserPolicy < ApplicationPolicy
   def logged_in?
     !@user.nil?
   end
+
+  def admin?
+    @user.admin
+  end
 end

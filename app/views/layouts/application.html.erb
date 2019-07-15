@@ -23,7 +23,7 @@
               <%= link_to 'Gems', jewels_path, class: 'nav-link' if policy(User).logged_in? %>
             </li>
             <li class="nav-item">
-              <%= link_to 'New Gem', new_jewel_path, class: 'nav-link' if policy(User).logged_in? %>
+              <%= link_to 'New Gem', new_jewel_path, class: 'nav-link' if policy(User).admin? %>
             </li>
           </ul>
           <ul class="navbar-nav">
