@@ -10,6 +10,6 @@ class UserPolicy < ApplicationPolicy
   end
 
   def admin?
-    @user.admin
+    !@user.nil? and @user.admin
   end
 end
