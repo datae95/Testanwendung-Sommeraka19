@@ -7,7 +7,7 @@ Diese Anwendung ist dazu gedacht, schon einmal einen kleinen Überblick über di
 Ich hoffe, dass die Installation dieser Testanwendung bei jedem geklappt hat und wünsche uns allen noch eine schöne Zeit bis zur Sommerakademie und einen interessanten und lehrreichen Kurs. 
 
 ## Setup
-Ladet euch die Anwendung runter (und entpackt die ZIP-Datei) oder clont sie in einen Ordner eurer Wahl.
+Ladet euch die Anwendung runter (und entpackt die ZIP-Datei) oder klont sie in einen Ordner eurer Wahl.
 In der Konsole navigiert ihr dann in diesen Ordner.
 Dort führt ihr folgende Befehle aus:
 ```

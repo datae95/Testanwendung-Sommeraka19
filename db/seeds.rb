@@ -40,7 +40,7 @@ Jewel.create ([
     description: 'Testing! Wird hier vermutlich nicht besprochen.'
   },
   {
-    name: 'Wiecked_PDF', 
+    name: 'Wicked_PDF', 
     description: 'Erstellen von PDFs direkt aus der Anwendung heraus.'
   },
 ])
