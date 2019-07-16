@@ -17,3 +17,16 @@ rails server
 ```
 Dann öffnet ihr wie gewohnt `localhost:3000` auf.
 Die Logindaten sind `user@cde.ev` oder `admin@cde.ev` jeweils mit dem Passwort `asdfasdf`.
+
+## Fehlermeldungen
+### Falsche Ruby Version
+Bekommt ihr den Fehler `Your Ruby version is 2.5.x, but your Gemfile specified 2.5.1 ` angezeigt, müsst ihr im `Gemfile` in Zeile 4 die Version an eure anpassen.
+
+### Falsche Bundlerversion
+Wird euch der Fehler `You must use Bundler 2 or greater with this lockfile.` angezeigt, wenn ihr `bundle install` ausführen wollt, müsst ihr davor die Befehle 
+```
+gem update --system
+gem install bundler
+```
+ausführen. 
+Danach könnt ihr wie angegeben fortfahren.
