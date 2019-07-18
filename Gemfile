@@ -86,3 +86,5 @@ gem "pundit"
 # PDF export
 gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
+
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
