@@ -30,3 +30,18 @@ gem install bundler
 ```
 ausführen. 
 Danach könnt ihr wie angegeben fortfahren.
+
+### NodeJS
+Erhaltet ihr den folgenden Fehler, kann es helfen NodeJS neu zu installieren. 
+```
+RuntimeError in StaticPages#index
+
+Showing [Pfad zur Datei]/app/views/layouts/application.html.erb where line #8 raised:
+
+Autoprefixer doesn’t support Node v4.4.7. Update it.
+```
+Windowsnutzer können es hier runterladen:
+https://nodejs.org/en/download/
+
+Linuxnutzer können sich hier informieren:
+https://github.com/nodesource/distributions/blob/master/README.md
